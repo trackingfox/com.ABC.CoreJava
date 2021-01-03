@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.ceres.Intro","c":"Guesser","l":"Guesser()","url":"%3Cinit%3E()"}]
