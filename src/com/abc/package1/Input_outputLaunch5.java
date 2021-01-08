@@ -6,14 +6,14 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class Input_outputLaunch4 {
+public class Input_outputLaunch5 {
 
 	public static void main(String[] args) {// without using throws keyword->duccking
 
 		String path1 = null;
 		String path2 = null;
 		FileReader fr = null;
-		int temp = 0;
+		String temp = null;
 		FileWriter fw = null;
 		BufferedWriter bw = null;
 		BufferedReader br = null;
@@ -26,7 +26,7 @@ public class Input_outputLaunch4 {
 			fw = new FileWriter(path2);
 			bw = new BufferedWriter(fw);
 
-			while ((temp = br.read()) != -1) {
+			while ((temp = br.readLine()) != null) {
 				bw.write(temp);
 			}
 		} catch (Exception e) {

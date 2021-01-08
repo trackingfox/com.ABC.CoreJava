@@ -9,8 +9,8 @@ public class Input_outputLaunch3 {
 
 	public static void main(String[] args) {// without using throws keyword->duccking
 
-		String path1 = "null";
-		String path2 = "null";
+		String path1 = null;
+		String path2 = null;
 		FileReader fr = null;
 		int temp = 0;
 		FileWriter fw = null;
