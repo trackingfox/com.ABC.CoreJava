@@ -1,15 +1,15 @@
 package com.abc.p1;
 
 @FunctionalInterface
-interface Display {
+interface Display1 {
 	void disp1();
 }
 
-public class Launch {
+public class Launch2 {
 
 	public static void main(String[] args) {
 
-		Display d = new Display() {
+		Display1 d = new Display1() {
 			public void disp1() {
 				System.out.println("Hello");
 			}
