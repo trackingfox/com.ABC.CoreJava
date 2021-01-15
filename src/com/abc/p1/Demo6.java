@@ -3,14 +3,7 @@ package com.abc.p1;
 import java.util.ArrayList;
 import java.util.function.Consumer;
 
-class Demo implements Consumer {
-
-	public void accept(Object o) {
-		System.out.println(o);
-	}
-}
-
-public class Demo1 {
+public class Demo6 {
 	public static void main(String[] args) {
 
 		ArrayList al = new ArrayList();
@@ -19,7 +12,10 @@ public class Demo1 {
 		al.add(300);
 		al.add(400);
 
-		Consumer c = new Demo();
+		Consumer c = (Object o) -> {
+			System.out.println(o);
+		};
+
 		al.forEach(c);
 	}
 }
