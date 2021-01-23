@@ -1,6 +1,8 @@
-package com.abc.p1;
+package Serialization;
 
-public class Cricketer {
+import java.io.Serializable;
+
+public class Cricketer implements Serializable {
 
 	String name;
 	int runs;
